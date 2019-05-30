@@ -17,11 +17,11 @@ const EditToDoForm = ({ editTodo, id, task, toggleEditForm }) => {
 				}}
 			>
 				<TextField
+					autoFocus
 					value={value}
 					onChange={handleChange}
 					margin="normal"
 					label="Edit Task"
-					fullWidth
 				/>
 			</form>
 		</Paper>
